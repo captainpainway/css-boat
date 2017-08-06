@@ -1,0 +1,48 @@
+@keyframes smoke {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        left: -50vw;
+    }
+}
+
+@keyframes boat {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+@keyframes flag {
+    0% {
+        transform: scaleX(0.8);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes waveswell {
+    0% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+@keyframes swing {
+    0% {
+        transform: skew(50deg) rotate(5deg);
+    }
+    100% {
+        transform: skew(50deg) rotate(-5deg);
+    }
+}
